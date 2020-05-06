@@ -8,7 +8,7 @@ const Post = ({ image }) => {
         <img src={image} alt="post 1" className="post__image__style" />
         <div className="post__center">
           <h5>Why you may want to</h5>
-          <p class=" font-weight-light text-muted">
+          <p className=" font-weight-light text-muted">
             The world's only camera designed for live streaming events
           </p>
           <Progress value="75" color="danger" style={{ height: 7 }} />

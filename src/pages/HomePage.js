@@ -4,6 +4,11 @@ import DefaultHeader from '../components/DefaultHeader';
 import DefaultSidebar from '../components/DefaultSidebar';
 import HomeSlider from '../components/HomeSlider';
 import PostsList from '../components/PostsList';
+import AboutComponent from '../components/AboutComponent';
+import StatsList from '../components/StatsList';
+import PartnersList from '../components/PartnersList';
+import Form from '../components/Form';
+import Footer from '../components/Footer';
 
 const HomePage = () => {
   return (
@@ -16,8 +21,13 @@ const HomePage = () => {
         <HomeSlider />
         <main className="main">
           <PostsList />
+          <AboutComponent />
+          <StatsList />
+          <PartnersList />
+          <Form />
         </main>
       </div>
+      <Footer />
     </div>
   );
 };

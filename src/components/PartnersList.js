@@ -3,7 +3,7 @@ import { Container, Row } from 'reactstrap';
 import Partners from '../assets/imgs/partners.png';
 const PartnersList = () => {
   return (
-    <Container className="mt-5">
+    <Container className="my-5">
       <Row className="justify-content-center  font-weight-bold">
         <h3 className="font-weight-bold ">Partners</h3>
       </Row>
